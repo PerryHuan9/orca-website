@@ -4,7 +4,7 @@ import Root from './components/Root.vue';
 
 Vue.use(Router);
 
-const BeginView = () => import(/* webpackChunkName: "BeginView" */ './components/views/BeginView');
+const BeginView = () => import(/* webpackChunkName: "BeginView" */ './components/begin/BeginView');
 const HomeView = () => import(/* webpackChunkName: "HomeView" */ './components/views/HomeView');
 
 export default new Router({

@@ -15,7 +15,7 @@
     <div class="begin-animate" v-if="isAnimate">
       <img class="begin-animate-bg" src="@/assets/img/blackHole.png"/>
     </div>
-    <!--用于覆盖播放的图片，这样的就不能是carousel不能触发hover事件，解决一hover就停止自动播放-->
+    <!--用于覆盖播放的图片，这样使el-carousel不能触发hover事件，解决一hover就停止自动播放-->
     <div class="begin-solve"></div>
   </div>
 </template>
