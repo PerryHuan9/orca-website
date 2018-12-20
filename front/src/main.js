@@ -3,6 +3,9 @@ import Meta from 'vue-meta';
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
 import 'normalize.css';
+import 'animate.css';
+/* eslint-disable-next-line */
+import '@/css/index.less';
 import App from './App.vue';
 import router from './router';
 import store from './store';
