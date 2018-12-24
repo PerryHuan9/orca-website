@@ -378,6 +378,38 @@
     }
 }
 
+@keyframes slider-explanation {
+  from {
+    opacity: 1;
+    visibility: visible;
+    top: -500px;
+  }
+
+  1% {
+    opacity: 1;
+    visibility: visible;
+    top: 50%;
+  }
+
+  19% {
+    opacity: 1;
+    visibility: visible;
+    top: 50%;
+  }
+
+  20% {
+    opacity: 0;
+    visibility: hidden;
+    top: 50%;
+  }
+
+  to {
+    opacity: 0;
+    visibility: hidden;
+    top: 50%;
+  }
+}
+
 @keyframes slider-participation {
     from {
         opacity: 0;
@@ -698,6 +730,7 @@
     }
 }
 
+
 @-webkit-keyframes slider-benefits {
     from {
         opacity: 0;
@@ -762,6 +795,69 @@
     }
 }
 
+@keyframes slider-explanation {
+  from {
+    opacity: 1;
+    visibility: visible;
+    top: -500px;
+  }
+
+  1% {
+    opacity: 1;
+    visibility: visible;
+    top: 50%;
+  }
+
+  19% {
+    opacity: 1;
+    visibility: visible;
+    top: 50%;
+  }
+
+  20% {
+    opacity: 0;
+    visibility: hidden;
+    top: 50%;
+  }
+
+  to {
+    opacity: 0;
+    visibility: hidden;
+    top: 50%;
+  }
+}
+
+@keyframes slider-participation {
+  from {
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  18% {
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  19% {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  46% {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  47% {
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
 @keyframes slider-benefits {
     from {
         opacity: 0;
@@ -858,6 +954,100 @@
     }
 }
 
+@keyframes slider-explanation {
+  from {
+    opacity: 1;
+    visibility: visible;
+    top: -500px;
+  }
+
+  1% {
+    opacity: 1;
+    visibility: visible;
+    top: 50%;
+  }
+
+  19% {
+    opacity: 1;
+    visibility: visible;
+    top: 50%;
+  }
+
+  20% {
+    opacity: 0;
+    visibility: hidden;
+    top: 50%;
+  }
+
+  to {
+    opacity: 0;
+    visibility: hidden;
+    top: 50%;
+  }
+}
+
+@keyframes slider-participation {
+  from {
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  18% {
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  19% {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  46% {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  47% {
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+@keyframes slider-benefits {
+  from {
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  45% {
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  46% {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  55% {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  56% {
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
 @keyframes slider-requirements {
     from {
         opacity: 0;

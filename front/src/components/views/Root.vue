@@ -3,7 +3,7 @@
     <nav class="root-nav ">
       <ul>
         <li class="root-nav-home">
-          <router-link :to="{name: 'view home'}"></router-link>
+          <router-link :to="{name: 'view home'}" alt="主页"></router-link>
         </li>
         <li class="root-nav-work">
           <router-link :to="{name: 'view work'}"></router-link>
@@ -31,12 +31,13 @@
       position: fixed;
       right: 0;
       top: 50%;
-      margin-right: 20px;
+      margin-right: 40px;
       transform: translateY(-50%);
 
       li{
         width: 40px;
         height: 40px;
+        list-style: none;
         border: 2px solid white;
         border-radius: 50%;
         text-align: center;
